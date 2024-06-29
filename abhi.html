@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/form-outline.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .blue {
+        background-color: #0d6efd;
+    }
+
+    .lightblue {
+        background-color: #3ccdfd;
+    }
+
+    .m1 {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <!--Header start-->
+
+	<header id="header" class="header fixed-top d-flex align-items-center">
+		<div class="d-flex align-items-center justify-content-between">
+			<img src="assets/images/logo.png" alt="" width="100%" style="margin-left: 100px;">
+			<i class="toggle-sidebar-btn pe-2">
+				<div class="menu-btn" id="menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>
+			</i>
+
+		</div>
+		<nav class="header-nav ms-auto">
+			<ul class="d-flex align-items-center">
+				<li class="nav-item dropdown pe-4 list-inline"><a class="nav-link dropdown-toggle text-white small"
+						href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+						aria-expanded="false">User</a>
+					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+						<li><a class="dropdown-item d-flex align-items-center" href="login.html"><i
+									class="fa fa-sign-out"></i> <span>Logout</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+    <!--Header end-->
+    <!--artical start-->
+    <!--Sidebar start-->
+    <!--left panel start-->
+    <div cy-include-html="assets/includes/left-panel.html"></div>
+    <!--left panel end-->
+    <!--Sidebar end-->
+    <!--Main start-->
+
+	<main id="main" class="main">
+		<div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<div class="title">
+						<h4>Dashboard</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="section">
+			<!--Table code start-->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12" style="background-color: yellow;height: 4rem; border-radius: 10px;">
+						<center>
+							<p>Your default Location is not updated<b><a href="profile.html" style="color: blue;"> Click
+										here</a></b> to choose your default Location. <br>
+								<b>Note </b>:- You can add & set default Location from Admin > Locations section as
+								well.
+							</p>
+						</center>
+					</div>
+				</div>
+				<div class="row" style="margin: 30px 40px 0 -20px;">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="card text-center"
+									style="width: 14rem;background-color: lightcoral; border-radius: 10px;">
+									<div class="card-body">
+										<h4 class="card-title text-light">Assets</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center"
+									style="width: 14rem;background-color: olivedrab;border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Assigned Assets</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center"
+									style="width: 14rem;background-color: rgb(139, 46, 137);border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light" style="font-size: 21px;">Unassigned Assets</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center"
+									style="width: 14rem;background-color: rgb(169, 162, 222);border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Vendors</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style=" margin: 30px 40px 0 -20px;">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="card text-center c1"
+									style="width: 14rem;background-color: olivedrab;border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Locations</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center c2"
+									style="width: 14rem;background-color: rgb(139, 46, 137);border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Products</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center c3"
+									style="width: 14em;background-color: rgb(169, 162, 222);border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Employees</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center "
+									style="width: 14rem;background-color: lightcoral;border-radius: 10px">
+									<div class="card-body">
+										<h4 class="card-title text-light">Total Asset cost</h4>
+										<p class="card-text">00</p>
+										<a href="#" class="btn btn-primary">View All</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Table code end-->
+		</section>
+	</main>
+
+    <!--left panel end-->
+    <!--Sidebar end-->
+    <!--Main start-->
+
+    <!--Main end-->
+    <!--artical end-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cy.js"></script>
+    <script src="assets/js/newscript.js"></script>
+    <script>  var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function () {
+            document.querySelector("body").classList.toggle("active");
+        })</script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
